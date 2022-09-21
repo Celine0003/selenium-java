@@ -16,6 +16,7 @@ public class HelloSelenium2Test {
     {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
+        driver.close();
         driver.quit();
     }
 }
